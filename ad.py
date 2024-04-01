@@ -1,7 +1,6 @@
-comp1 = 100
-comp2 = "tabshilla"
-print(comp1 == comp2)
-
-comp1 = 100
-comp2 = 100
-print(comp1 == comp2)
+class WHT:
+    def calc(self):
+        wHt = 1000000 * 0.06
+        return wHt
+value = WHT()
+print(value.calc())
