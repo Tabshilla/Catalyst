@@ -1,16 +1,16 @@
-# class Animal:
-#     def eat(self) -> None:
-#         print ("I can eat")
+class Animal:
+    def eat(self) -> None:
+        print ("I can eat")
 
-# class Dog(Animal):
-#     def display (self) -> None:
-#         print ("my name is", self.name)
-#         return "my name is " + self.name
-# gshephered = Dog()
-# gshephered.name = "police"
-# print(gshephered.name)
-# print(gshephered.display())
-# print(gshephered.eat()) #inherited from parent  class
+class Dog(Animal):
+    def display (self) -> None:
+        print ("my name is", self.name)
+        return "my name is " + self.name
+gshephered = Dog()
+gshephered.name = "police"
+print(gshephered.name)
+print(gshephered.display())
+print(gshephered.eat()) #inherited from parent  class
 
 # a dog is a sub class of the class animal
 #the dog in this case is the child/derived class and the animal class is referred to as the parent class

@@ -2,6 +2,7 @@ import turtle
 
 tr = turtle.Turtle()
 tr.pensize(5)
+tr.speed(10)
 
 
 def blue():
